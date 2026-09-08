@@ -79,3 +79,37 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
 
+---
+
+## Additional operational personas
+
+To improve clarity and accountability across delivery, release, security, design, and support activities, add the following operational and liaison personas.
+
+- Release Manager
+  - Responsibilities: Owns release scheduling, deployment coordination, rollback planning, and post-release verification (smoke checks). Prepares release notes and runbooks.
+  - Interactions: Works with Project Manager for scheduling, Developers and Engineering Leads for deployment tasks and rollback plans, QA for pre-release verification, and Support for post-release monitoring and incident readiness.
+
+- Delivery Lead
+  - Responsibilities: Focuses on sprint-level execution—ensures backlog readiness, refines scope for upcoming iterations, coordinates cross-team dependencies, and clears execution blockers.
+  - Interactions: Collaborates with Project Manager and Product Manager on priorities, coordinates with Tech/Engineering Leads on technical dependencies, and aligns with QA to ensure acceptance criteria are testable.
+
+- Engineering Lead / Tech Lead
+  - Responsibilities: Serves as the technical owner for architecture, design decisions, and implementation trade-offs. Mentors developers and enforces engineering standards.
+  - Interactions: Partners with Product Manager on technical feasibility and scope, works with Developers on implementation, and coordinates with QA on testability and observable requirements.
+
+- UX / Research Liaison
+  - Responsibilities: Ensures research and design considerations are introduced early, coordinates user testing and validation, and translates UX findings into actionable requirements.
+  - Interactions: Engages with Product Managers to align user needs, works with Developers to integrate designs, and shares findings with Project Managers to influence scheduling and scope.
+
+- Security Liaison
+  - Responsibilities: Coordinates security reviews, threat modeling, and triage of security findings; tracks remediation and ensures security gates are met prior to release.
+  - Interactions: Interfaces with Engineering Leads and Developers to implement fixes, notifies Project Managers about security-related schedule impacts, and escalates to Security on-call when needed.
+
+- Support Liaison (Customer Ops)
+  - Responsibilities: Brings customer-impact insights, triages incoming incidents, maintains runbooks, and coordinates communications and handoffs during incidents and releases.
+  - Interactions: Works with Release Manager for rollout communications, with Project Manager for prioritization of customer-impacting fixes, and with Developers for reproducing and resolving customer issues.
+
+Suggested next steps
+- Add this "Additional operational personas" section to docs/octoacme-roles-and-personas.md.
+- Keep entries concise and include one-line interactions as shown.
+- Review these additions with PM, Product Lead, Security, and Support stakeholders before merging.
